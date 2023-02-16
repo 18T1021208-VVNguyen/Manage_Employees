@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Class>
+	<Employees>
+
+
+
+
+
+		<Employee>
+			<no>2302001</no>
+			<name/>
+		</Employee>
+		<Employee>
+			<no>2302002</no>
+			<name>xx</name>
+		</Employee>
+		<Employee>
+			<iDTitle>t2 </iDTitle>
+			<no>2302003</no>
+			<name>Vo Van nguyen</name>
+		</Employee>
+		<Employee>
+			<no>2302004</no>
+			<name>abcd</name>
+		</Employee>
+		<Employee>
+			<iDTitle>t2 </iDTitle>
+			<no>2302005</no>
+			<name>ccc</name>
+		</Employee>
+	</Employees>
+
+	<Titles>
+
+
+
+		<Title>
+			<no>t2 </no>
+			<name>lap trinh nhung</name>
+		</Title>
+
+		<Title>
+			<no>t3</no>
+			<name>Lap trinh web by java</name>
+		</Title>
+		<Title>
+			<iDDepartment>d1</iDDepartment>
+			<no>T003</no>
+			<name>abc</name>
+		</Title>
+		<Title>
+			<iDDepartment>d3</iDDepartment>
+			<no>T004</no>
+			<name>cxxxcx</name>
+		</Title>
+	<Title><iDDepartment>d2</iDDepartment><no>T005</no><name>xxx</name></Title><Title><no>T006</no><name>abcd</name></Title></Titles>
+
+	<Departments>
+
+		<Department>
+			<no>d2</no>
+			<name>Nhung</name>
+		</Department>
+		<Department>
+			<no>d3</no>
+			<name>vv</name>
+		</Department>
+		<Department>
+			<no>d1</no>
+			<name>Hue ofice</name>
+		</Department>
+	<Department><no>DE004</no><name>d5</name></Department></Departments>
+
+</Class>

@@ -1,43 +1,32 @@
 package model;
 
-import java.util.List;
 
 public  class Title extends BaseModel{
 
 	
-	private Department department;
+	private String iDDepartment;
 	
-	private List<Employee> employee;
+	//private List<Employee> employee;
 	
 	public Title(String no, String name) {
 		super(no, name);
 		
 	}
 
-	
-
-	public void setDepartment(Department department) {
-		this.department = department;
-	}
-	
-	
 
 
 
-	public List<Employee> getEmployee() {
-		return employee;
+
+	public String getIDdepartment() {
+		return iDDepartment;
 	}
 
 
 
-	public void setEmployee(List<Employee> employee) {
-		this.employee = employee;
-	}
 
 
-
-	public Department getDepartment() {
-		return this.department ;
+	public void setIDdepartment(String iDdepartment) {
+		this.iDDepartment = iDdepartment;
 	}
 
 
@@ -46,8 +35,12 @@ public  class Title extends BaseModel{
 
 	@Override
 	public String print() {
-		// TODO Auto-generated method stub
-		return null;
+		StringBuilder stringBuilder = new StringBuilder("Title\n");
+		stringBuilder.append(super.toString());
+		stringBuilder.append("\n");
+		stringBuilder.append("iDDepartment: " + this.iDDepartment);
+		return stringBuilder.toString();
+		
 	}
 
 }

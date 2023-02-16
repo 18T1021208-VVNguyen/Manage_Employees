@@ -2,7 +2,7 @@ package model;
 
 public class Employee  extends BaseModel{
 
-	 private Title title;
+	 private String iDTitle;
 
 	 
 	 
@@ -12,22 +12,26 @@ public class Employee  extends BaseModel{
 	 }
 
 
-	public Title getTitle() {
-		return title;
+	
+
+	public String getIDTitle() {
+		return iDTitle;
 	}
 
 
-	public void setTitle(Title title) {
-		this.title = title;
+
+
+	public void setIDTitle(String iDTitle) {
+		this.iDTitle = iDTitle;
 	}
 
 
 	@Override
 	public String print() {
 			StringBuilder stringBuilder = new StringBuilder("Employee\n");
-			stringBuilder.append("");
+			stringBuilder.append(super.toString());
 			stringBuilder.append("\n");
-			stringBuilder.append("title: " + this.title);
+			stringBuilder.append("iDTitle: " + this.iDTitle);
 			return stringBuilder.toString();
 	}
 
